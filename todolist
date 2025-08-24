@@ -1,0 +1,34 @@
+def todolist():
+tasks=[]
+while True:
+print( to do list")
+print(" 1.add the taskin 2.show the task in 3.remove the taskin 4.mark the taskln 5.exitin")
+choice=int(input("enter your choice:"))
+if(choice==1):
+taskl=input("enter the task:")
+tasks.append(("task":task1."done":false))
+print("task added")
+elif(choice==2):
+for i, task in enumerate(tasks):
+show="finish" if task["done ]else "not done"
+print(f"(1+1). {task['task']} - ({show}")
+elif(choice==3):
+number=int(input("enter the number ")) -1
+if(O<=number< len(tasks)):
+tasks.pop(number)
+print("the task are".task)
+else:
+print("invalid task")
+elif(choice==4):
+mark=int(input ("enter the task to be marked"))
+if 0 < mark < len(tasks):
+tasks[mark]["done"]= True
+print("Task marked as donel")
+else: 
+print( Invalid task number.")
+elif (choice ==5):
+print("Exiting the To-Do List.")
+break
+else:
+print("Invalid choice. Please try again.")
+todolist()
