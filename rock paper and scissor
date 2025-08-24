@@ -1,0 +1,31 @@
+import random
+userpoint=0 
+AIpoint=0
+game=True 
+while game:
+print("ROCK.PAPER,SCISSOR")
+print("in--New Round--")
+Choice=["rock"."paper"."scissor"]
+AI=random.choice(choice)
+user=input ("enter the Rock.paper. scissor:")
+if (user not in choice):
+print("invalid") 
+continue 
+print(AIchoice:+AI)
+if(user==AI):
+print("Draw")
+elif(user=="rock" and AI=="paper" or user=="paper" and AI=="scissor" or user=="scissor" and AI=="rock" ):
+print("AI win")
+AIpoint=AIpoint+1
+else:
+print("user win")
+userpoint=userpoint+1
+print(f"user point:".userpoint)
+print(f"AI point:".AIpoint)
+playagain=input("do you want to play again:")
+if(playagain=="no"):
+game=False
+print("thankyou")
+break:
+print("total point:".userpoint)
+print("total point:",AIpoint)
