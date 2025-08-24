@@ -1,0 +1,28 @@
+print("Arithmetic operators")
+Input1=floatcinput("enter a number:"))
+input2=float(input("enter a number:"))
+print(input1)
+print(input2)
+operator=input("enter the operator:")
+print("operator: ".operator) 
+if (operator==`+'):
+result=input1 + input2
+print(result)
+elifoperator=='-"):
+result=input1-input2
+print("result:".result)
+elif operator=='*':
+result=input1*input2
+print("result:".result) 
+elif(operator=="%"):
+result=input1%1nput2
+print("result:".result)
+elif(operator=='/*):
+1f (input1>=input2):
+result=input1/input2
+print("result:".result)
+else:
+print("invalid")
+else:
+print("invalid")
+print("thank you")
